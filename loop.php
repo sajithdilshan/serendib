@@ -9,7 +9,9 @@
 			<div class="meta_top">
 			<p>Posted on: <span class="time"><?php the_time('F j, Y'); ?></span><span class="comments"><?php comments_popup_link(); ?></span></p>
 			</div>
-		<?php the_content('Read more...'); ?>
+			<div class="entry-content">
+				<?php the_content('Read more...'); ?>
+			</div>
 			<div class="meta_bottom">
 			<p><?php the_tags('Tags: ',' '); ?></p>
 			</div>

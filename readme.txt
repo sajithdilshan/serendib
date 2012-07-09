@@ -13,6 +13,4 @@ http://tympanus.net/codrops/
 
 I hope you would enjoy Serendib Theme and let me know what do you think about it
 Email : sajithdilshan@gmail.com
-
-Demo of Serendib Theme http://wpdemo.host-ed.me/serendib/
 ================================================================================

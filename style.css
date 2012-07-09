@@ -36,9 +36,6 @@ a {
 a:hover{
     text-decoration: underline;
 }
-li{
-    list-style: none;
-}
 
 /** classes **/
 
@@ -285,6 +282,22 @@ blockquote  p{
     padding:0.1em 0em 0.1em 1em;
     border-left:2px solid #ddd;
 }
+
+.entry-content{
+    padding-top: 15px;
+}
+
+.entry-content ul{
+    line-height:18px;
+    list-style-type:square;
+    margin: 0px 0px 0px 20px;
+}
+.entry-content ol{
+    line-height:18px;
+    list-style-type:decimal;
+    margin: 0px 0px 0px 20px;
+}
+
 .entry-content p{
     text-align: justify; 
     text-justify: newspaper
@@ -309,7 +322,6 @@ blockquote  p{
 
 .meta_top {
     padding-top:15px;
-    padding-bottom:20px;
 }
 
 .time {
@@ -602,15 +614,21 @@ div.comment-meta.commentmetadata a{
     font-weight:400;
     margin: 0px 0px 0px 15px;
 }
+
 cite.fn{
     margin-left: 15px;
 }
+
 span.says{
     font-weight:400;
 }
+
 a.comment-reply-link{
     font-weight:300; 
     padding-left: 10px;
+}
+#comments li{
+    list-style: none;;
 }
 
 ol.commentlist{
